@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PlanetCard from './PlanetCard';
+// import PlanetCard from './PlanetCard';
 import Title from './Title';
 // import planets from '../data/planets';
 
@@ -10,8 +10,7 @@ class SolarSystem extends Component {
     return (
       <>
         <div data-testid="solar-system" />
-        <Title headline={ headlineText } />
-        <PlanetCard />
+        <Title headline={ headlineText } />q
       </>
     );
   }
